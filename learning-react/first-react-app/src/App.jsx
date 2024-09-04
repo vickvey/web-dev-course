@@ -1,5 +1,9 @@
 import "./App.css";
 import PropertyList from "./PropertyList";
+import Clicker from "./Clicker";
+import Form from "./Form";
+import Counter from "./Counter";
+
 const properties = [
   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
   { id: 129331, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
@@ -12,7 +16,9 @@ const properties = [
 function App() {
   return (
     <div>
-      <PropertyList properties={properties} />
+      {/* <Form />
+      <Clicker /> */}
+      <Counter />
     </div>
   );
 }
