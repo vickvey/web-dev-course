@@ -1,0 +1,10 @@
+/* ColorGrid.css */
+.ColorGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    grid-template-rows: repeat(5, 1fr); /* 5 rows */
+    gap: 1px; /* Optional: Add gap between boxes */
+    width: 500px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+  }
+  
