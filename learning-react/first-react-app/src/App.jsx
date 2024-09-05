@@ -3,6 +3,7 @@ import PropertyList from "./PropertyList";
 import Clicker from "./Clicker";
 import Form from "./Form";
 import Counter from "./Counter";
+import Toggler from "./Toggler";
 
 const properties = [
   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
@@ -18,7 +19,8 @@ function App() {
     <div>
       {/* <Form />
       <Clicker /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Toggler />
     </div>
   );
 }
